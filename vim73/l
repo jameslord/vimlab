@@ -1,4 +1,4 @@
-./configure --prefix=$1 && make && make install
+./configure --enable-pythoninterp=yes --prefix=$@ && make && make install
 # commit using https
 #./configure --prefix=$HOME/ins/ins-vim && make && make install
 
