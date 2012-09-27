@@ -1,1 +1,3 @@
-./configure --prefix=$HOME/ins/ins-vim && make && make install
+./configure --prefix=$1 && make && make install
+#./configure --prefix=$HOME/ins/ins-vim && make && make install
+
